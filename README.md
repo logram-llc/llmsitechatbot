@@ -1,6 +1,6 @@
 # LLM Site Chabot
 
-A simple CLI using OpenAI and LlamaIndex to answer questions about your website(s)
+A simple CLI using OpenAI and LlamaIndex to answer questions about your website(s). The LLM's index is built from your sites' sitemaps and URLs.
 
 ## Quick Start
 
