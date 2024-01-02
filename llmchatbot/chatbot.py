@@ -39,7 +39,7 @@ class Chatbot:
         )
         index.storage_context.persist(persist_dir=self.config.llm_vector_store_path)
 
-    def load_index(self) -> VectorStoreIndex:
+    def load_index(self) -> None:
         storage_context = StorageContext.from_defaults(persist_dir=self.config.llm_vector_store_path)
         self.index = load_index_from_storage(
             storage_context=storage_context, service_context=self.service_context
