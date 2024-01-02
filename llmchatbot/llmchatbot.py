@@ -1,8 +1,8 @@
 from argparse import ArgumentParser
-from llmchatbot.config import get_config_from_env, get_config_from_file
-from llmchatbot.chatbot import Chatbot
-from llmchatbot import api
 import uvicorn
+from llmchatbot import api
+from llmchatbot.chatbot import Chatbot
+from llmchatbot.config import get_config_from_env, get_config_from_file
 
 
 def main():

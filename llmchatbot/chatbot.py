@@ -1,10 +1,10 @@
-from llmchatbot.config import Config
 from os import getcwd
 from pathlib import Path
 from subprocess import run as subprocess_run
 from llama_index import ServiceContext, StorageContext, VectorStoreIndex, load_index_from_storage
 from llama_index.llms import OpenAI
 from llama_index.schema import MetadataMode
+from llmchatbot.config import Config
 from llmchatbot.scraper import PlaywrightWebScraper
 from llmchatbot.sitemap import SitemapParser
 
