@@ -12,7 +12,7 @@ dependencies = [
     "uvicorn==0.25.0",
     "pydantic==2.5.3",
     "llama-index==0.9.23",
-    "transformers==4.36.2",
+    "transformers==4.38.0",
     "beautifulsoup4==4.12.2",
     "urllib3==2.1.0",
     "requests==2.31.0",
