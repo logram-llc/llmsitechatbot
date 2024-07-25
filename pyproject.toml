@@ -19,7 +19,7 @@ dependencies = [
     "html2text==2020.1.16",
     "playwright==1.40.0",
     "lxml==5.0.0",
-    "torch==2.1.2",
+    "torch==2.2.0",
 ]
 
 [project.scripts]
